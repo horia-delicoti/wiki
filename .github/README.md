@@ -17,14 +17,14 @@ A digital garden where I collect, organize, and share everything I learn about t
 
 ## 🧠 About
 
-The content is defined in Markdown files located in the `docs/` directory. The site is built with Docusaurus and lives on GitHub.
+The content is defined in Markdown files located in the [`docs/`](/docs/) directory. The site is built with Docusaurus and lives on GitHub.
 
 ## 🚀 Getting Started
 
 ### ⚙️ Prerequisites
 
-- [Node.js](https://nodejs.org/en/download) (>= 20.x)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
+- [Node.js][nodejs_download] (>= 20.x)
+- [npm][npm] (comes with Node.js)
 
 ### 💻 Installation
 
@@ -151,7 +151,7 @@ No need to contribute or raise issues. Just fork the repo and make the changes y
 
 ## 🙌 Attributions
 
-![contributors badge](https://readme-contribs.as93.net/contributors/horia-delicoti/wiki)
+![contributors badge][readme-contribs]
 
 ## 🫡 Acknowledgements
 
@@ -170,11 +170,11 @@ No need to contribute or raise issues. Just fork the repo and make the changes y
 
 ### ⚙️ Build & Utility Tools
 
-- [Docusaurus](https://docusaurus.io/docs) - An open-source static site generator that makes it easy to build and maintain open source project websites.
-- [Node.js](https://nodejs.org/en/) - A JavaScript runtime built on Chrome's V8 JavaScript engine.
-- [npm](https://www.npmjs.com/) - A package manager for JavaScript.
-- [Task](https://taskfile.dev/) - A simple task runner / build tool that aims to be simpler and easier to use than Make.
-- [Shields.io](https://shields.io/) - A service that provides a simple way to create consistent and customizable badges for open source projects.
+- [Docusaurus][docusaurus] - An open-source static site generator that makes it easy to build and maintain open source project websites.
+- [Node.js][nodejs] - A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [npm][npm] - A package manager for JavaScript.
+- [Task][task] - A simple task runner / build tool that aims to be simpler and easier to use than Make.
+- [Shields.io][shields] - A service that provides a simple way to create consistent and customizable badges for open source projects.
 
 ## ⚖️ License
 
@@ -189,8 +189,14 @@ This project is licensed under the [MIT][mit] License. See the [LICENSE](/LICENS
 </p>
 
 <!-- Links -->
+[readme-contribs]: https://readme-contribs.as93.net/contributors/horia-delicoti/wiki
 [mit]: https://opensource.org/licenses/MIT
 [docusaurus]: https://docusaurus.io/
+[nodejs]: https://nodejs.org/en/
+[nodejs_download]: https://nodejs.org/en/download
+[npm]: https://www.npmjs.com/
+[task]: https://taskfile.dev/
+[shields]: https://shields.io/
 
 <!-- Knowledge Hive -->
 <!--
