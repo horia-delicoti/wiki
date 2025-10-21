@@ -1,12 +1,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)][mit]
 [![Docusaurus](https://img.shields.io/badge/Docs-Docusaurus-blue.svg)][docusaurus]
 
-<h1 align="center">📘 My personal Wiki</h1>
+<h1 align="center">📚 My personal Wiki</h1>
 <p align="center">
 <a href="https://github.com/horia-delicoti/wiki"><img src="./images/wiki_logo.png" width="100"/></a><br>
 <i>This repo contains the source code for my personal wiki website</i>
 <br />
-<i>A website built with <a href="https://docusaurus.io/">(Docusaurus)</a> </i>
+<i>A website built with <a href="https://docusaurus.io/">Docusaurus</a> </i>
 <br />
 <b> 🔗 <a href="https://wiki.horia.delicoti.com"><code>wiki.horia.delicoti.com</code></a></b> <br/>
 </p>
@@ -136,7 +136,11 @@ npm run serve
 </details>
 
 ```sh
-npm run deploy
+USE_SSH=true npm run deploy # Deploy using SSH authentication
+```
+
+```sh
+GIT_USER=<Your GitHub username> npm run deploy # Deploy using HTTPS authentication
 ```
 
 ### 📸 Screenshot
