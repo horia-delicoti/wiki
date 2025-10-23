@@ -212,7 +212,7 @@ nmap -oN scan_results.txt -oX scan_results.xml -oG scan_results.grepable
 
 ### Ping Sweep
 
-A [ping sweep](https://www.codecademy.com/resources/docs/cybersecurity/nmap/ping-sweep) is a network scanning technique to identify active devices on a network by pinging a range of IP addresses. Compared to other methods, ping sweeps can be harder to detect as it is not as aggressive and can skip regular scan stages, making it more of an advantage. Using `-sn`, nmap disables port scanning and only relies on ICMP echo packets (or [ARP](/docs/networking/#arp) requests for local networks) to check if hosts are up.
+A [ping sweep](https://www.codecademy.com/resources/docs/cybersecurity/nmap/ping-sweep) is a network scanning technique to identify active devices on a network by pinging a range of IP addresses. Compared to other methods, ping sweeps can be harder to detect as it is not as aggressive and can skip regular scan stages, making it more of an advantage. Using `-sn`, nmap disables port scanning and only relies on ICMP echo packets (or [ARP](/networking/#arp) requests for local networks) to check if hosts are up.
 
 ```sh
 nmap -sn 192.168.1.0/24
@@ -248,7 +248,7 @@ nmap -T5 <IP> # Insane     - Very fast scan, can overwhelm networks and devices
 
 ### Understanding Network Traffic
 
-A [TCP Connect](/docs/networking/tcp) scan works by performing the three-way handshake (Syn -> Syn-Ack -> Ack) with each target port. Nmap tries to connect to each specified TCP port, and determines whether the port is **OPEN**, **CLOSED**, or **FILTERED** based on the response received.
+A [TCP Connect](/networking/tcp) scan works by performing the three-way handshake (Syn -> Syn-Ack -> Ack) with each target port. Nmap tries to connect to each specified TCP port, and determines whether the port is **OPEN**, **CLOSED**, or **FILTERED** based on the response received.
 
 :::tip [Port Scanning Techniques](https://nmap.org/book/man-port-scanning-techniques.html)
 With sudo privileges, users exectues an `-sS` **(SYN scan)**.
@@ -259,11 +259,11 @@ Without sudo privileges, users executes an `-sT` **(TCP Connect scan)**.
 **[RFC 9293](https://datatracker.ietf.org/doc/html/rfc9293)** states that: "If the connection is **CLOSED** or doesn’t exists, then a **RST** is sent in response."
 
 - If the connection is **OPEN**, then the target server responds with **SYN-ACK** packet, indicating that is ready to establish a connection.
-- If port is **OPEN**, but behind a [firewall](/docs/networking/firewall), the target may not respond at all, or it may respond with an ICMP unreachable message, indicating that the port is filtered.
+- If port is **OPEN**, but behind a [firewall](/networking/firewall), the target may not respond at all, or it may respond with an ICMP unreachable message, indicating that the port is filtered.
 
 :::
 
-- **Browser**: When accessing a web page, the browser initiates a full **[TCP](/docs/networking/tcp)** connection to the server. This involves a three-way handshake (SYN, SYN-ACK, ACK) to establish the connection before sending HTTP requests.
+- **Browser**: When accessing a web page, the browser initiates a full **[TCP](/networking/tcp)** connection to the server. This involves a three-way handshake (SYN, SYN-ACK, ACK) to establish the connection before sending HTTP requests.
 
 - **`nmap -sT`** (**TCP Connect Scan**) - _Default without **`sudo`**_:
   - Uses the full TCP handshake (SYN -> SYN-ACK -> ACK) for each target port

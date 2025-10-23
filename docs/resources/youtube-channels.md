@@ -3,7 +3,7 @@ title: YouTube Channels
 description: A list of YouTube channels that focus on educational content, technology, and DIY projects without falling into the trap of mindless scrolling.
 ---
 
-Because of [Digital Addiction](/docs/psychology/digital-addiction), I want to be mindful of my time and use [YouTube](https://www.youtube.com/) as a tool for learning and personal growth but not as a source of mindless scrolling. I use [Focused Youtube Extension](https://addons.mozilla.org/en-US/firefox/addon/focused-youtube/) that removes video suggestions, sidebars, and comments.
+Because of [Digital Addiction](/psychology/digital-addiction), I want to be mindful of my time and use [YouTube](https://www.youtube.com/) as a tool for learning and personal growth but not as a source of mindless scrolling. I use [Focused Youtube Extension](https://addons.mozilla.org/en-US/firefox/addon/focused-youtube/) that removes video suggestions, sidebars, and comments.
 
 Another way to avoid [doomscrolling](https://en.wikipedia.org/wiki/Doomscrolling) on Youtube is to turn history off from [Google account](https://myaccount.google.com/) settings -> [Data & Privacy](https://myaccount.google.com/data-and-privacy) -> YouTube History -> Pause. This way, Youtube won't be able to recommend videos based on your watch history.
 

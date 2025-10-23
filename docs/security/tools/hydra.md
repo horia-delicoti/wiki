@@ -3,7 +3,7 @@ title: Hydra
 description: Hydra is a parralelized network login cracker, to perform brute force attacks to guess username and password combinations.
 ---
 
-[Hydra](https://github.com/vanhauser-thc/thc-hydra) is a brute force online pasword cracking program, a quick system login password "hacking" tool. It can run through a list and “brute force” some authentication services. Imagine trying to manually guess someone’s password on a particular service ([SSH](/docs/networking/ssh), Web Application Form, [FTP](/docs/networking/ftp) or SNMP) - we can use Hydra to run through a password list and speed this process up for us, determining the correct password.
+[Hydra](https://github.com/vanhauser-thc/thc-hydra) is a brute force online pasword cracking program, a quick system login password "hacking" tool. It can run through a list and “brute force” some authentication services. Imagine trying to manually guess someone’s password on a particular service ([SSH](/networking/ssh), Web Application Form, [FTP](/networking/ftp) or SNMP) - we can use Hydra to run through a password list and speed this process up for us, determining the correct password.
 
 :::warning
 This shows the importance of using a strong password; if your password is common, doesn’t contain special characters and is not above eight characters, it will be prone to be guessed.

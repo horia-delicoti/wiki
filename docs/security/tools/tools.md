@@ -5,20 +5,20 @@ description: A collection of cybersecurity tools for scanning, enumeration, and 
 
 ### Network Reconnaissance and Scanning Tools
 
-- [Nmap](/docs/networking/nmap) - A powerful network scanning tool for discovering hosts and services on a computer network.
-- [Netdiscover](/docs/networking/netdiscover) - A tool for active/passive ARP reconnaissance to discover live hosts in a network.
+- [Nmap](/networking/nmap) - A powerful network scanning tool for discovering hosts and services on a computer network.
+- [Netdiscover](/networking/netdiscover) - A tool for active/passive ARP reconnaissance to discover live hosts in a network.
 
 ### Protocol Analysis
 
-- [Wireshark](/docs/networking/wireshark) - A network protocol analyzer that captures and displays data packets in real-time.
+- [Wireshark](/networking/wireshark) - A network protocol analyzer that captures and displays data packets in real-time.
 
 ### Network Vulnerability Scanning
 
-- [Hydra](/docs/security/tools/hydra) - A fast and flexible password-cracking tool.
+- [Hydra](/security/tools/hydra) - A fast and flexible password-cracking tool.
 
 ### Web Vulnerability Scanning
 
-- [Nikto](/docs/security/tools/nikto) - A web server scanner that tests for various vulnerabilities in web servers.
+- [Nikto](/security/tools/nikto) - A web server scanner that tests for various vulnerabilities in web servers.
 
 ### Links
 

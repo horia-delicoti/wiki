@@ -2,7 +2,7 @@
 title: DNS
 ---
 
-[Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System) is responsible for properly mapping a [domain name](https://en.wikipedia.org/wiki/Domain_name) to an [IP address](https://en.wikipedia.org/wiki/IP_address). It operates at [Application Layer (Layer 7)](/docs/networking#osi-model). DNS traffic uses UDP (port 53) by default and TCP (port 53) as a default fallback.
+[Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System) is responsible for properly mapping a [domain name](https://en.wikipedia.org/wiki/Domain_name) to an [IP address](https://en.wikipedia.org/wiki/IP_address). It operates at [Application Layer (Layer 7)](/networking#osi-model). DNS traffic uses UDP (port 53) by default and TCP (port 53) as a default fallback.
 
 ### List of [DNS record types](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
 
