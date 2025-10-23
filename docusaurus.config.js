@@ -31,13 +31,18 @@ const config = {
   projectName: 'wiki', // Usually your repo name.
 
   onBrokenLinks: 'throw', // Throw an error on broken links
-  onBrokenMarkdownLinks: 'warn', // Warn on broken markdown links
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang.
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+  },
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn', // Warn on broken markdown links
+    },
   },
 
   customFields: {
