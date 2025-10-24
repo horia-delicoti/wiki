@@ -1,14 +1,17 @@
+[![🚀 Deploy](https://github.com/horia-delicoti/wiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/horia-delicoti/wiki/actions/workflows/deploy.yml)
+[![🚚 Release](https://github.com/horia-delicoti/wiki/actions/workflows/release.yml/badge.svg)](https://github.com/horia-delicoti/wiki/actions/workflows/release.yml)
+[![🏷️ Tag](https://github.com/horia-delicoti/wiki/actions/workflows/tag.yml/badge.svg)](https://github.com/horia-delicoti/wiki/actions/workflows/tag.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)][mit]
-[![Docusaurus](https://img.shields.io/badge/Docs-Docusaurus-blue.svg)][docusaurus]
+[![Made With Docusaurus](https://img.shields.io/badge/Made_With-Docusaurus-blue.svg)][docusaurus]
 
 <h1 align="center">📚 My personal Wiki</h1>
 <p align="center">
 <a href="https://github.com/horia-delicoti/wiki"><img src="./images/wiki_logo.png" width="100"/></a><br>
-<i>This repo contains the source code for my personal wiki website</i>
+<i>This repository contains the source code for my personal wiki website.</i>
 <br />
-<i>A website built with <a href="https://docusaurus.io/">Docusaurus</a> </i>
+<i>A website built with <a href="https://docusaurus.io/">Docusaurus</a></i>
 <br />
-<b> 🔗 <a href="https://wiki.horia.delicoti.com"><code>wiki.horia.delicoti.com</code></a></b> <br/>
+<b>🔗 <a href="https://wiki.horia.delicoti.com"><code>wiki.horia.delicoti.com</code></a></b>
 </p>
 
 ## 💡 Motive
@@ -17,7 +20,7 @@ A digital garden where I collect, organize, and share everything I learn about t
 
 ## 🧠 About
 
-The content is defined in Markdown files located in the [`docs/`](/docs/) directory. The site is built with Docusaurus and lives on GitHub.
+The content is defined in Markdown files located in the [`docs/`](/docs/) directory. The site is built with [Docusaurus][docusaurus] and lives on [GitHub Pages][github_pages].
 
 ## 🚀 Getting Started
 
@@ -46,14 +49,14 @@ npm install
 <details>
   <summary>Starts the development server</summary>
 
-  `npm start` → `docusaurus start`
+  [`npm start` → `docusaurus start`](/package.json)
 
-  ### Features:
+  Features:
 
-  * Hot Reloading: Automatically refreshes when you make changes to your source files
-  * Error Overlay: Displays helpful error messages in the browser when something goes wrong.
-  * Debugging: Provides detailed stack traces and debugging information.
-  * Faster Build Times: Optimized for quick feedback during development.
+  * **Hot Reloading**: Automatically refreshes when you make changes to your source files
+  * **Error Overlay**: Displays helpful error messages in the browser when something goes wrong.
+  * **Debugging**: Provides detailed stack traces and debugging information.
+  * **Faster Build Times**: Optimized for quick feedback during development.
 
   <i>Use case: When you're actively developing and want to see changes immediately without manually refreshing the browser.</i>
 
@@ -68,9 +71,9 @@ npm start
 <details>
   <summary>Bundles your website into static files for production</summary>
 
-  `npm run build` → `docusaurus build`
+  [`npm run build` → `docusaurus build`](/package.json)
 
-  ### Features:
+  Features:
 
   * **Static Site Generation (SSG)**: Pre-renders all pages at build time for optimal performance and SEO
   * **Code Splitting**: Automatically splits JavaScript bundles by routes and components for faster loading
@@ -92,9 +95,9 @@ npm run build
 <details>
   <summary>Serves the built website locally.</summary>
 
-  `npm run serve` → `docusaurus serve`
+  [`npm run serve` → `docusaurus serve`](/package.json)
 
-  ### Features:
+  Features:
 
   * Serves the optimized production build of your website.
   * No hot reloading; serves static files as they are. You need to rebuild if you make changes.
@@ -114,24 +117,25 @@ npm run serve
 <details>
   <summary>Deploys the website to GitHub Pages</summary>
 
-  `npm run deploy` → `docusaurus deploy`
+  [`npm run deploy` → `docusaurus deploy`](/package.json)
 
-  ### Technical Process:
+  Technical Process:
 
-  * **Automated Build**: Automatically runs `docusaurus build` to generate production files
+  * **Automated Build**: Automatically runs [`docusaurus build`](/package.json) to generate production files
   * **Git Integration**: Creates or switches to the `gh-pages` branch in your repository
-  * **File Deployment**: Pushes the entire `build/` directory contents to the `gh-pages` branch
+  * **File Deployment**: Pushes the entire [`build/`](/build/) directory contents to the `gh-pages` branch
   * **GitHub Pages Activation**: Automatically configures GitHub Pages to serve from the `gh-pages` branch
-  * **Domain Configuration**: Supports custom domains via `CNAME` file generation
+  * **Domain Configuration**: Supports custom domains via [`CNAME`](/CNAME) file generation
   * **History Management**: Maintains deployment history and rollback capabilities
-  * **CI/CD Compatible**: Works seamlessly with GitHub Actions and other CI/CD pipelines
+  * **CI/CD Compatible**: Works seamlessly with [GitHub Actions][github_actions] and other CI/CD pipelines
 
-  ### Prerequisites:
+  Prerequisites:
+
   * Repository must be configured with GitHub Pages settings
-  * `organizationName` and `projectName` must be set in `docusaurus.config.js`
+  * `organizationName` and `projectName` must be set in [`docusaurus.config.js`](docusaurus.config.js)
   * Git remote must be properly configured and authenticated
 
-  <i>Use case: Automated deployment to GitHub Pages with zero-downtime and built-in rollback support.</i>
+  <i>Use case: Automated deployment to [GitHub Pages][github_pages] with zero-downtime and built-in rollback support.</i>
 
 </details>
 
@@ -145,9 +149,38 @@ GIT_USER=<Your GitHub username> npm run deploy # Deploy using HTTPS authenticati
 
 ### 📸 Screenshot
 
+<h3 align="center">🌎 Wiki Preview</h3>
+<p align="center"><img src="./images/wiki_preview.png" width="950" alt="Wiki Preview Photo"/></p>
+
+## 🔧 Troubleshooting
+
+### Port already in use
+
+```sh
+# Kill process using port 3000
+lsof -ti:3000 | xargs kill -9
+```
+
+### Build fails
+
+```sh
+# Clear npm cache
+npm cache clean --force
+
+# Remove node_modules and reinstall
+rm -rf node_modules package-lock.json
+npm install
+```
+
+### Deployment issues
+
+- Ensure your GitHub repository has Pages enabled
+- Check that [`organizationName`](/docusaurus.config.js) and [`projectName`](/docusaurus.config.js) match your GitHub settings
+- Verify your authentication method (SSH vs HTTPS)
+
 ## 🤝 Contributing
 
-No need to contribute or raise issues. Just fork the repo and make the changes you need for your own wiki page.
+This is a personal knowledge wiki. Feel free to fork the repository and adapt it for your own wiki page. No contributions or issues are needed for this project.
 
 ## 🙌 Attributions
 
@@ -173,7 +206,6 @@ No need to contribute or raise issues. Just fork the repo and make the changes y
 - [Docusaurus][docusaurus] - An open-source static site generator that makes it easy to build and maintain open source project websites.
 - [Node.js][nodejs] - A JavaScript runtime built on Chrome's V8 JavaScript engine.
 - [npm][npm] - A package manager for JavaScript.
-- [Task][task] - A simple task runner / build tool that aims to be simpler and easier to use than Make.
 - [Shields.io][shields] - A service that provides a simple way to create consistent and customizable badges for open source projects.
 
 ## ⚖️ License
@@ -195,8 +227,9 @@ This project is licensed under the [MIT][mit] License. See the [LICENSE](/LICENS
 [nodejs]: https://nodejs.org/en/
 [nodejs_download]: https://nodejs.org/en/download
 [npm]: https://www.npmjs.com/
-[task]: https://taskfile.dev/
 [shields]: https://shields.io/
+[github_pages]: https://pages.github.com/
+[github_actions]: https://github.com/features/actions
 
 <!-- Knowledge Hive -->
 <!--
