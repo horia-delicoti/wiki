@@ -1,8 +1,8 @@
-[![🚀 Deploy](https://github.com/horia-delicoti/wiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/horia-delicoti/wiki/actions/workflows/deploy.yml)
-[![🚚 Release](https://github.com/horia-delicoti/wiki/actions/workflows/release.yml/badge.svg)](https://github.com/horia-delicoti/wiki/actions/workflows/release.yml)
-[![🏷️ Tag](https://github.com/horia-delicoti/wiki/actions/workflows/tag.yml/badge.svg)](https://github.com/horia-delicoti/wiki/actions/workflows/tag.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)][mit]
-[![Made With Docusaurus](https://img.shields.io/badge/Made_With-Docusaurus-blue.svg)][docusaurus]
+[![🚀 Deploy][github_actions_deploy_badge]][github_actions_deploy_link]
+[![🚚 Release][github_actions_release_badge]][github_actions_release_link]
+[![🏷️ Tag][github_actions_tag_badge]][github_actions_tag_link]
+[![License: MIT][shields_img_license]][mit]
+[![Made With Docusaurus][shields_img_docusaurus]][docusaurus]
 
 <h1 align="center">📚 My personal Wiki</h1>
 <p align="center">
@@ -230,6 +230,16 @@ This project is licensed under the [MIT][mit] License. See the [LICENSE](/LICENS
 [shields]: https://shields.io/
 [github_pages]: https://pages.github.com/
 [github_actions]: https://github.com/features/actions
+
+<!-- Badges links -->
+[github_actions_tag_badge]: https://github.com/horia-delicoti/wiki/actions/workflows/tag.yml/badge.svg
+[github_actions_tag_link]: https://github.com/horia-delicoti/wiki/actions/workflows/tag.yml
+[github_actions_release_badge]: https://github.com/horia-delicoti/wiki/actions/workflows/release.yml/badge.svg
+[github_actions_release_link]: https://github.com/horia-delicoti/wiki/actions/workflows/release.yml
+[github_actions_deploy_badge]: https://github.com/horia-delicoti/wiki/actions/workflows/deploy.yml/badge.svg
+[github_actions_deploy_link]: https://github.com/horia-delicoti/wiki/actions/workflows/deploy.yml
+[shields_img_license]: https://img.shields.io/badge/License-MIT-green.svg
+[shields_img_docusaurus]: https://img.shields.io/badge/Made_With-Docusaurus-blue.svg
 
 <!-- Knowledge Hive -->
 <!--
