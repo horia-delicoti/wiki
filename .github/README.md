@@ -149,19 +149,19 @@ GIT_USER=<Your GitHub username> npm run deploy # Deploy using HTTPS authenticati
 
 ### 📸 Screenshot
 
-<h3 align="center">🌎 Wiki Preview</h3>
+<h4 align="center">🌎 Wiki Preview</h4>
 <p align="center"><img src="./images/wiki_preview.png" width="950" alt="Wiki Preview Photo"/></p>
 
 ## 🔧 Troubleshooting
 
-### Port already in use
+### 🔧 Port already in use
 
 ```sh
 # Kill process using port 3000
 lsof -ti:3000 | xargs kill -9
 ```
 
-### Build fails
+### 🔧 Build fails
 
 ```sh
 # Clear npm cache
@@ -172,7 +172,7 @@ rm -rf node_modules package-lock.json
 npm install
 ```
 
-### Deployment issues
+### 🔧 Deployment issues
 
 - Ensure your GitHub repository has Pages enabled
 - Check that [`organizationName`](/docusaurus.config.js) and [`projectName`](/docusaurus.config.js) match your GitHub settings
