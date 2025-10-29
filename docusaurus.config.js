@@ -82,6 +82,10 @@ const config = {
           },
         ],
       },
+      footer: {
+        style: 'dark',
+        copyright: `Copyright © ${new Date().getFullYear()} Horia Delicoti • Powered by <a href="https://docusaurus.io/" target="_blank">Docusaurus</a>`,
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

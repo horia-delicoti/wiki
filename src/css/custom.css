@@ -34,12 +34,13 @@
   object-fit: cover;
 }
 
-/* Page footer styling */
-.page-footer {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--ifm-color-emphasis-200);
-  text-align: center;
-  color: var(--ifm-color-emphasis-600);
-  font-size: 0.875rem;
+/* Custom color for Docusaurus link in footer */
+.footer__copyright a {
+  color: #5a97f2 !important; /* Light blue that contrasts with dark footer */
+  text-decoration: none;
+}
+
+.footer__copyright a:hover {
+  color: #7bb6ff !important; /* Lighter blue on hover */
+  text-decoration: underline;
 }
