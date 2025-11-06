@@ -3,7 +3,11 @@ title: Telnet
 subtitle: A simple command-line tool for remote communication.
 ---
 
-[Telnet](https://en.wikipedia.org/wiki/Telnet) is a network protocol for remote terminal connection. Although initially it was used for remote administration, we can use telnet to connect to any server listening on a TCP port number.
+[Telnet](https://www.ibm.com/docs/en/i/7.4.0?topic=services-telnet) is a network protocol for remote terminal connection. Although initially it was used for remote administration, we can use telnet to connect to any server listening on a TCP port number.
+
+Port: **23** by default, but we can specify any port number.
+
+Secure: **No**, as it transmits data in plain text. Use [SSH](/networking/ssh) instead for secure communication.
 
 ### Commands
 
