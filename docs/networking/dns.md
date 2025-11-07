@@ -71,6 +71,8 @@ traceroute -p 80 <HOST_IP> # Specify port
 - [How to secure DNS requests to upstream DNS](https://medium.com/@life-is-short-so-enjoy-it/homelab-adguard-how-to-secure-dns-requests-to-upstream-dns-10c5ee6a392e)
 - [What is DNS](https://www.youtube.com/watch?v=NiQTs9DbtW4&t=106s) - Youtube video on how DNS works by NetworkChuck
 - [WHOIS Data and Accuracy](https://www.icann.org/resources/pages/whois-data-accuracy-2017-06-20-en) - Information about the accuracy of WHOIS data provided by ICANN (Internet Corporation for Assigned Names and Numbers)
+- [How DNS Works](https://howdns.works/) - An interactive guide to understanding how DNS works.
+- [Whois](https://www.netmeister.org/blog/whois.html) - A blog post explaining the WHOIS protocol and its usage.
 
 ### Notes
 
