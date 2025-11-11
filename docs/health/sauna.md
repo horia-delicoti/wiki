@@ -11,24 +11,26 @@ title: Sauna
 3. Cold shower (2-3 minutes)
 4. Hydration and rest
 
-### Session Guidelines
-
-- **Frequency:** 3-5 sessions per week
-- **Duration:** 15-20 minutes per session
-- **Temperature:** 70-100°C (158-212°F) for traditional saunas
-- **Type:** Dry sauna
-- **After exercise:** Stronger effects
-- **Hydration:** Drink plenty of water before, during, and after (consider electrolyte replacement for longer sessions)
-
-### Benefits
-
-- **Cardiovascular health:** Improved circulation, reduced blood pressure, strengthened heart muscle
-- **Muscle recovery:** Increased blood flow, reduced soreness, accelerated recovery
-- **Mental health:** Stress reduction, improved mood, better sleep quality
-- **Detoxification:** Increased sweating, elimination of toxins, improved skin health
-
 ### Links
 
 - [Finnish Sauna Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5941775/)
 - [Cardiovascular Benefits of Sauna](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2130724)
 - [Youtube: Is Sauna Actually good for you? by Dr. Bryan Johnson](https://www.youtube.com/watch?v=kiUM92VDI1Y)
+
+### Notes
+
+```sh title="Session Guidelines"
+- Frequency: 3-5 sessions per week
+- Duration: 15-20 minutes per session
+- Temperature: 70-100°C (158-212°F) for traditional saunas
+- Type: Dry sauna
+- After exercise: Stronger effects
+- Hydration: Drink plenty of water before, during, and after (consider electrolyte replacement for longer sessions)
+```
+
+```sh title="Benefits"
+- Cardiovascular health: Improved circulation, reduced blood pressure, strengthened heart muscle
+- Muscle recovery: Increased blood flow, reduced soreness, accelerated recovery
+- Mental health: Stress reduction, improved mood, better sleep quality
+- Detoxification: Increased sweating, elimination of toxins, improved skin health
+```
