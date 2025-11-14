@@ -6,10 +6,14 @@ title: Sauna
 
 ### Post-Workout Recovery
 
-1. Light stretching (5 minutes)
-2. 15-20 minute sauna session
-3. Cold shower (2-3 minutes)
-4. Hydration and rest
+1. Light stretching (**5** minutes)
+2. **15-20** minute sauna session
+3. **Cold** shower (**2-3** minutes)
+4. **Hydration** and **rest**
+
+:::tip
+Hydration: Drink plenty of water before, during, and after (consider electrolyte replacement for longer sessions)
+:::
 
 ### Links
 
@@ -19,18 +23,14 @@ title: Sauna
 
 ### Notes
 
-```sh title="Session Guidelines"
-- Frequency: 3-5 sessions per week
-- Duration: 15-20 minutes per session
-- Temperature: 70-100°C (158-212°F) for traditional saunas
-- Type: Dry sauna
-- After exercise: Stronger effects
-- Hydration: Drink plenty of water before, during, and after (consider electrolyte replacement for longer sessions)
-```
-
-```sh title="Benefits"
-- Cardiovascular health: Improved circulation, reduced blood pressure, strengthened heart muscle
-- Muscle recovery: Increased blood flow, reduced soreness, accelerated recovery
-- Mental health: Stress reduction, improved mood, better sleep quality
-- Detoxification: Increased sweating, elimination of toxins, improved skin health
-```
+| Aspect               | Details                                      |
+|----------------------|----------------------------------------------|
+| Frequency            | **3-5 sessions** per week                        |
+| Duration             | **15-20 minutes** per session                    |
+| Temperature          | **70-100°C (158-212°F)** for traditional saunas  |
+| Type                 | **Dry** sauna                                    |
+| After exercise       | Stronger effects                                 |
+| Cardiovascular health | **Improved circulation**, reduced blood pressure, strengthened **heart muscle** |
+| Muscle recovery       | **Increased blood flow**, reduced soreness, accelerated recovery |
+| Mental health         | **Stress reduction**, improved mood, better **sleep quality** |
+| Detoxification        | Increased sweating, **elimination of toxins**, improved skin health |
