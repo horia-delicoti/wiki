@@ -33,4 +33,4 @@ Creatine works by increasing the availability of adenosine triphosphate (ATP), t
 - [Youtube: Creatine: What You Need to Know by Jeff Nippard on The Daiyr of CEO](https://www.youtube.com/watch?v=za-4iAlrMwc)
 - [Creatine Supplementation and Exercise Performance: An Update](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3407788/)
 - [Creatine Monohydrate Supplementation on Exercise Performance and Training Adaptations](https://journals.lww.com/nsca-scj/Fulltext/2017/04000/Creatine_Monohydrate_Supplementation_on_Exercise.7.aspx)
-- [Creatine for Muscle Hypertrophy: A Review of Efficacy and Safety](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5922766/) 
+- [Creatine for Muscle Hypertrophy: A Review of Efficacy and Safety](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5922766/)
