@@ -2,6 +2,13 @@
 title: United Kingdom
 ---
 
+### Expat Resources
+
+- [Expatica UK](https://www.expatica.com/uk/) - Comprehensive resource for expatriates in the UK.
+- [Internations UK](https://www.internations.org/united-kingdom-expats) - Community for expatriates in the UK.
+- [UK Visa and Immigration](https://www.gov.uk/browse/visas-immigration) - Official information on UK visas and immigration.
+- [Expats Guide to the UK](https://www.expatsguidetotheuk.com/) - Resource for expatriates living in the UK.
+
 ### Official UK websites
 
 - [Gov.uk](https://www.gov.uk/) - Official government website for citizens and businesses.
