@@ -28,3 +28,5 @@ Privacy is the right to control your personal information and decide how it is c
 - [PrivacyTools.io](https://www.privacytools.io/)
 - [JustDelete.me](https://justdelete.me/)
 - [Have I Been Pwned](https://haveibeenpwned.com/)
+
+- [Privacy Guides](https://www.privacyguides.org/)
