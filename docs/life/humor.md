@@ -1,0 +1,7 @@
+---
+title: Humor
+---
+
+### 😂 Jokes
+
+- Why did the sun go to school? To get a little brighter!
