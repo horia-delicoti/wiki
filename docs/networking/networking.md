@@ -135,8 +135,9 @@ The idea behind [Network Address Translation (NAT)](https://en.wikipedia.org/wik
 
 ### Links
 
-- [OSI Model Explained](https://www.cloudflare.com/learning/network-layer/what-is-the-osi-model/)
-- [List of TCP and UDP port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
-- [Complete guide to the Ethernet Protocol](https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/)
-- [TryHackMe: Networkig Concepts](https://tryhackme.com/module/networking)
-- [Explained from first principles: Internet](https://explained-from-first-principles.com/internet/)
+- [OSI Model Explained](https://www.cloudflare.com/learning/network-layer/what-is-the-osi-model/) - A detailed explanation of the OSI Model.
+- [List of TCP and UDP port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers) - A comprehensive list of well-known port numbers and their associated services.
+- [Complete guide to the Ethernet Protocol](https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/) - An in-depth article about the Ethernet protocol.
+- [TryHackMe: Networking Concepts](https://tryhackme.com/module/networking) - An interactive learning module on basic networking concepts.
+- [Explained from first principles: Internet](https://explained-from-first-principles.com/internet/) - A detailed explanation of how the Internet works.
+- [ICMP, Ping and Traceroute - What I Wish I Was Taught Blog](https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/) - A deep dive into ICMP, Ping, and Traceroute.
