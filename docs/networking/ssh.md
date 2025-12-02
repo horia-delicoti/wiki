@@ -14,6 +14,7 @@ ssh -X user@host                # Enable X11 forwarding (GUI apps)
 ssh -L 8080:localhost:80 user@host  # Local port forwarding
 ssh -R 2222:localhost:22 user@host  # Remote port forwarding
 ssh-copy-id user@host           # Copy your public key to the server for key-based login
+ssh -i privateKeyFileName user@host # Connect using a specific private key file
 ```
 
 ### SSH Key Management
@@ -23,6 +24,7 @@ ssh-keygen                      # Generate a new SSH key pair
 cat ~/.ssh/id_rsa.pub           # Show your public key
 ssh-add ~/.ssh/id_rsa           # Add private key to SSH agent
 eval "$(ssh-agent -s)"          # Start the SSH agent
+ssh-agent -k                    # Kill the SSH agent
 ```
 
 ### Secure File Transfer
@@ -61,9 +63,11 @@ Host myserver
 - [SSH Academy](https://www.ssh.com/academy)
 - [OpenSSH Manual](https://man.openbsd.org/ssh)
 - [SSH Config Examples](https://linux.die.net/man/5/ssh_config)
+- [TryHackME Public Key Cryptography Room](https://tryhackme.com/room/publickeycrypto)
 
 ### Notes
 
 - SSH is available by default on most Unix-like systems.
 - Public keys are stored in `~/.ssh/authorized_keys` on the server.
 - Use `ssh -v` for verbose/debug output if you have connection issues.
+- Permission for `~/.ssh` directory should be `700` and for private keys `600`.
