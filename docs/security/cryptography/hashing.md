@@ -38,6 +38,13 @@ hashcat -m <hash_type> -a 0 target_hash.txt wordlist.txt
 john --wordlist=wordlist.txt --format=<hash_type> target_hash.txt
 ```
 
+### UUID (Universally Unique Identifier)
+
+A UUID is a 128-bit number used to uniquely identify information in computer systems. They are often represented as 32 hexadecimal characters, displayed in five groups separated by hyphens, in the form 8-4-4-4-12 for a total of 36 characters (including the hyphens). UUIDs are widely used in software development for unique identifiers.
+
+- [UUID Version 1](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_1_(date-time_and_MAC_address)): Based on timestamp and MAC address.
+- [UUID Decoder](https://www.uuidtools.com/decode)
+
 ### Links
 
 - [Crack Station](https://crackstation.net/) - CrackStation uses massive pre-computed lookup tables to crack password hashes. These tables store a mapping between the hash of a password, and the correct password for that hash.
