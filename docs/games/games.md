@@ -8,3 +8,9 @@ I mostly only play PS5 games. Together with chess on my phone.
 
 - [TheWikiGame](https://www.thewikigame.com/) - Navigate from one Wikipedia page to another using only the links within the articles. It's a fun way to explore topics and improve your research skills.
 - [SkyNet Simulator](https://skynetsimulator.com/) - A game where you play as an AI trying to take over the world. It involves strategy and decision-making.
+
+### Portable Handheld
+
+- [Pocket Analogue](https://www.analogue.co/pocket)
+- [Nintendo Switch 2](https://www.nintendo.com/en-gb/Hardware/Nintendo-Switch-2/Nintendo-Switch-2-2785301.html)
+- [Steam Deck](https://store.steampowered.com/steamdeck)
