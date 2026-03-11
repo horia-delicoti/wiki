@@ -2,7 +2,7 @@
 title: Hashing
 ---
 
-Hashing is a process that takes input data and produces a hash value, a fixed-size string of characters, also referred to as digest. This hash value uniquely represents the data, and any change in the data, no matter how small, should lead to a change in the hash value. Hashing should not be confused with encryption or encoding; hashing is one-way, and you can’t reverse the process to get the original data. It helps protect data’s integrity and ensure password confidentiality.
+[Hashing](https://en.wikipedia.org/wiki/Hash_function) is a process that takes input data and produces a hash value, a fixed-size string of characters, also referred to as digest. This hash value uniquely represents the data, and any change in the data, no matter how small, should lead to a change in the hash value. Hashing should not be confused with encryption or encoding; hashing is one-way, and you can’t reverse the process to get the original data. It helps protect data’s integrity and ensure password confidentiality.
 
 ### Hash Functions
 
@@ -58,3 +58,4 @@ A UUID is a 128-bit number used to uniquely identify information in computer sys
 - [OpenSSL](https://www.cryptool.org/en/cto/openssl/) - Command-line crypto toolkit (`openssl dgst`, `openssl genpkey`)
 - [Hashcat](https://hashcat.net/hashcat/) - A powerful password recovery tool supporting various hash algorithms.
 - [John the Ripper](https://www.openwall.com/john/) - A fast password cracker with support for many hash types.
+- [Hash Identifier](https://hashes.com/en/tools/hash_identifier)([Tool](https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master)) - Identify the correct hash
