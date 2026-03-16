@@ -31,7 +31,7 @@ sha3sum -a 256 filename.txt  # Generate SHA-3-256 hash
 
 ### Password Cracking
 
-You can’t “decrypt” password hashes. They’re not encrypted. You have to crack the hashes by hashing many different inputs (such as rockyou.txt as it covers many possible passwords), potentially adding the salt if there is one and comparing it to the target hash. Once it matches, you know what the password was. Tools like [Hashcat](https://hashcat.net/hashcat/) and [John the Ripper](https://www.openwall.com/john/) are commonly used for these purposes.
+You can’t “decrypt” password hashes. They’re not encrypted. You have to crack the hashes by hashing many different inputs (such as rockyou.txt as it covers many possible passwords), potentially adding the salt if there is one and comparing it to the target hash. Once it matches, you know what the password was. Tools like [Hashcat](https://hashcat.net/hashcat/) and [John the Ripper](/docs/security/tools/john_the_ripper.md) are commonly used for these purposes.
 
 ```sh
 hashcat -m <hash_type> -a 0 target_hash.txt wordlist.txt
