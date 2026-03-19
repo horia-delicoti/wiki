@@ -3,24 +3,21 @@ title: Cybersecurity Tools
 description: A collection of cybersecurity tools for scanning, enumeration, and vulnerability assessment.
 ---
 
-### Network Reconnaissance and Scanning Tools
+Security tools are organized by their primary function and use case:
+
+### Tool Categories
+
+- [Reconnaissance Tools](/security/tools/reconnaissance/reconnaissance) - Network and web enumeration, information gathering.
+- [Password Cracking Tools](/security/tools/password-cracking/password-cracking) - Password testing and recovery.
+- [Exploitation Tools](/security/tools/exploitation/exploitation) - Exploit frameworks and tools.
+
+### Network and Protocol Analysis
 
 - [Nmap](/networking/nmap) - A powerful network scanning tool for discovering hosts and services on a computer network.
 - [Netdiscover](/networking/netdiscover) - A tool for active/passive ARP reconnaissance to discover live hosts in a network.
-
-### Protocol Analysis
-
 - [Wireshark](/networking/wireshark) - A network protocol analyzer that captures and displays data packets in real-time.
 
-### Network Vulnerability Scanning
-
-- [Hydra](/security/tools/hydra) - A fast and flexible password-cracking tool.
-
-### Web Vulnerability Scanning
-
-- [Nikto](/security/tools/nikto) - A web server scanner that tests for various vulnerabilities in web servers.
-
-### Links
+### Resources and Links
 
 - [Kali Tool List](https://www.kali.org/tools/)
 - [SecTools.Org: Top 125 Network Security Tools](https://sectools.org/)
