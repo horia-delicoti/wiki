@@ -39,6 +39,14 @@ const config = {
     locales: ['en'],
   },
 
+  scripts: [
+    {
+      src: 'https://umami.delicoti.com/script.js',
+      defer: true,
+      'data-website-id': '64c78a79-eb0f-4048-9d85-90f25ebc66ac',
+    },
+  ],
+
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'warn', // Warn on broken markdown links
