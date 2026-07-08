@@ -80,5 +80,4 @@ Footballers need to be strong, explosive, and lean. The focus is on functional s
 - [Strength Training for Footballers (Science for Sport)](https://www.scienceforsport.com/strength-training-for-football/)
 - [Hypertrophy Explained (Stronger by Science)](https://www.strongerbyscience.com/hypertrophy/)
 - [Dumbbell Workouts (Bodybuilding.com)](https://www.bodybuilding.com/content/the-ultimate-dumbbell-workout-plan.html)
-
----
+- [Johnson Dwayne weekly routine](https://gasparinutrition.com/blogs/fitness-facts/train-like-dwayne-the-rock-johnson-dwayne-s-weekly-routine)
