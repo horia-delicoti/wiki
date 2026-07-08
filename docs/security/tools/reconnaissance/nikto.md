@@ -14,7 +14,7 @@ nikto -h https://<HOST_IP> -p 8080 -output nikto_scan.txt -useproxy http://127.0
 ```
 
 :::info
-Use Nikto findings to feed into further attacks with tools like [gobuster](/docs/security/tools/reconnaissance/gobuster), [wpscan](/docs/security/tools/reconnaissance/wpscan) or custom scripts.
+Use Nikto findings to feed into further attacks with tools like [gobuster](/docs/security/tools/reconnaissance/gobuster.md), [wpscan](/docs/security/tools/reconnaissance/wpscan.md) or custom scripts.
 :::
 
 :::warning
