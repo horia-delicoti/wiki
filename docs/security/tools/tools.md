@@ -7,9 +7,9 @@ Security tools are organized by their primary function and use case:
 
 ### Tool Categories
 
-- [Reconnaissance Tools](/security/tools/reconnaissance/reconnaissance) - Network and web enumeration, information gathering.
-- [Password Cracking Tools](/security/tools/password-cracking/password-cracking) - Password testing and recovery.
-- [Exploitation Tools](/security/tools/exploitation/exploitation) - Exploit frameworks and tools.
+- [Reconnaissance Tools](/docs/security/tools/reconnaissance/reconnaissance) - Network and web enumeration, information gathering.
+- [Password Cracking Tools](/docs/security/tools/password-cracking/password-cracking) - Password testing and recovery.
+- [Exploitation Tools](/docs/security/tools/exploitation/exploitation) - Exploit frameworks and tools.
 
 ### Network and Protocol Analysis
 

@@ -14,9 +14,9 @@ title: Penetration Testing
 
 ### 🧰 Tools
 
+- [Metasploit](/docs/security/penetration-testing/metasploit.md) - Penetration testing framework
 - [Burp Suite](https://portswigger.net/burp) - Web application security testing tool
 - [OWASP ZAP](https://www.zaproxy.org/) - Open source web application security scanner
-- [Metasploit](https://www.metasploit.com/) - Penetration testing framework
 - [Nmap](https://nmap.org/) - Network discovery and security auditing tool
 - [Wireshark](https://www.wireshark.org/) - Network protocol analyzer
 - [Nikto](https://cirt.net/Nikto2) - Web server scanner

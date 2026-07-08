@@ -3,31 +3,34 @@ title: Metasploit
 description: Metasploit Framework - an open-source penetration testing and exploit development platform.
 ---
 
-Metasploit is one of the most powerful tools in cybersecurity for penetration testing, exploit development, and vulnerability assessment.
+[Metasploit](https://www.metasploit.com/) is an open-source framework in cybersecurity for penetration testing, information gathering, exploit development, post-exploitation, improve security assessments, and vulnerability assessment.
 
-### Overview
+:::tip
 
-The Metasploit Framework is a platform for developing, testing, and executing exploits. It includes:
+- Only use Metasploit on authorized systems and during approved penetration tests
+- Keep modules and exploits updated to the latest versions
+- Document all testing activities for compliance and reporting
 
-- **Exploit Modules** - Pre-built exploits for various vulnerabilities
-- **Payload Generators** - Tools to create custom payloads and shells
-- **Auxiliary Modules** - Scanning, enumeration, and credential gathering tools
-- **Post-Exploitation Modules** - Tools for maintaining access and gathering information
+:::
 
-### Key Components
+```sh title="Start Metasploit Console. This is the primary interface for interacting with Metasploit."
+msfconsole
+```
 
-- **MSFConsole** - Main command-line interface
-- **Meterpreter** - Advanced payload with extensive capabilities
-- **Workspaces** - Organize and manage multiple penetration tests
+### Key Features
 
-### Resources
+- msfconsole - Interactive command-line interface for using Metasploit
+- Modules - Pre-built exploits, payloads, scanners, and auxiliary tools
+- Tools - Stand-alone tools for specific tasks to help with vulnerability research and exploitation
 
-- [Metasploit Official](https://www.metasploit.com/)
-- [Metasploit Documentation](https://docs.metasploit.com/)
-- [HackTheBox](https://www.hackthebox.com/) - Hands-on practice
+### Recurring Concepts
 
-### Best Practices
+- Exploits - Code that takes advantage of vulnerabilities to gain unauthorized access
+- Vulnerabilities - Weaknesses in software that can be exploited by attackers
+- Payloads - Code that runs on the target system after a successful exploit
+- Post-exploitation - Actions taken after gaining access to a system, such as privilege escalation and data exfiltration
 
-- Only use Metasploit on authorized systems and during approved penetration tests.
-- Keep modules and exploits updated to the latest versions.
-- Document all testing activities for compliance and reporting.
+### Links
+
+- [Metasploit Website](https://www.metasploit.com/) ([Documentation](https://docs.metasploit.com/)) ([GitHub](https://github.com/rapid7/metasploit-framework))
+- [TryHackMe - Exploitation Basics](https://tryhackme.com/module/exploitation-basics) - Module about exploiting vulnerabilities and using Metasploit
